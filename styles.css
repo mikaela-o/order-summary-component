@@ -61,8 +61,9 @@ body {
   font-size: var(--font-weight-normal);
   font-weight: var(--font-size-16px);
   color: var(--desaturated-blue);
-  background: var(--pale-blue) top center/100% 50% no-repeat;
+  background: var(--pale-blue);
   background-image: url(./images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
 }
 h1,
 h2,
@@ -71,67 +72,59 @@ h3 {
 }
 h2 {
   font-size: var(--font-size-28px);
+  line-height: 2.315rem;
   color: var(--dark-blue);
   font-weight: var(--font-weight-black);
+  margin-block-end: 1.0625rem;
 }
 button {
   font-family: inherit;
 }
 
+/* main content box */
 .main {
+  position: relative;
   background-color: var(--white);
   text-align: center;
-  max-width: 28.125rem;
+  /* max-width: 28.125rem; [im trying to do the responsive design shit kms] */
+  max-width: 18.75rem;
   border-radius: 1.5rem;
-  box-shadow: 0 3px 10px hsla(224, 23%, 55%, 0.5);
+  box-shadow: 0 2.5rem 1.5rem -1.25rem hsla(245, 75%, 52%, 0.125);
   overflow: hidden;
 }
 .main-image {
   width: 100%;
 }
 .main-content {
-  padding: 3rem;
+  padding: 2.8125rem 3rem 3rem;
   display: grid;
-  gap: 1rem;
 }
-.annual-plan-box {
+.main-p {
+  line-height: 1.625rem;
+}
+
+/* annual plan box*/
+.plan-box {
   display: flex;
-  gap: 1rem;
+  margin-block-start: 1.25rem;
+  margin-block-end: 2rem;
   background-color: var(--very-pale-blue);
-  padding: 1.5rem;
+  padding: 1.5625rem 1.5rem;
   text-align: left;
   border-radius: 0.5rem;
+  line-height: 1.313rem;
 }
-.annual-plan-box p:first-child {
+.plan-icon {
+  padding-inline-end: 1.25rem;
+}
+.plan-subheading {
   color: var(--dark-blue);
   font-weight: var(--font-weight-black);
 }
-.button {
-  cursor: pointer;
-  text-decoration: none;
-  border: 0;
-  border-radius: 0.5rem;
-  font-weight: var(--font-weight-bold);
-  background: transparent;
-  padding: 1rem 2rem;
+.plan-price {
+  padding-block-start: 0.375rem;
 }
-.primary {
-  background: var(--bright-blue);
-  color: var(--white);
-  box-shadow: 0 5px 15px hsla(224, 23%, 55%, 0.5);
-}
-.primary:hover,
-.primary:focus {
-  background: var(--purple);
-}
-.secondary {
-  color: var(--desaturated-blue);
-  padding: 0;
-}
-.secondary:hover,
-.secondary:focus {
-  color: var(--dark-blue);
-}
+/* change button */
 a,
 .link {
   cursor: pointer;
@@ -141,7 +134,43 @@ a,
   text-decoration: underline;
   font-size: var(--font-size-14px);
   font-weight: var(--font-weight-bold);
-  margin-left: auto;
+  padding: 0 0 0 5.875rem;
+  line-height: 1.188rem;
+}
+
+/* buttons */
+.button {
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  border-radius: 0.5rem;
+  font-weight: var(--font-weight-bold);
+  background: transparent;
+}
+.primary {
+  background: var(--bright-blue);
+  line-height: 1.241rem;
+  font-size: 0.938rem;
+  font-weight: var(--font-weight-black);
+  color: var(--white);
+  padding: 0.9375rem 6.375rem;
+  box-shadow: 0 1.5rem 1rem hsla(245, 75%, 52%, 0.15);
+}
+.primary:hover,
+.primary:focus {
+  background: var(--purple);
+}
+.secondary {
+  color: var(--desaturated-blue);
+  font-weight: var(--font-weight-black);
+  font-size: 0.938rem;
+  line-height: 1.25rem;
+  padding: 0;
+  margin-block-start: 2rem;
+}
+.secondary:hover,
+.secondary:focus {
+  color: var(--dark-blue);
 }
 a:hover,
 a:focus,
@@ -160,10 +189,16 @@ a:focus,
   color: hsl(228, 45%, 44%);
 } */
 
-@media only screen and (min-width: 46.875rem) {
-  .background-wave {
-    background: url("./images/pattern-background-desktop.svg");
-    /* height: 50vh; */
+/* medium devices + */
+@media only screen and (min-width: 768px) {
+  body {
+    background: var(--pale-blue);
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .main {
+    max-width: 28.125rem;
   }
 }
 

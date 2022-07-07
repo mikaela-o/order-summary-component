@@ -17,32 +17,39 @@
 
   <body>
     <div class="main">
-      <div class="background-wave"></div>
       <!-- maybe i can change this img to an id later -->
       <img
         class="main-image"
         src="./images/illustration-hero.svg"
-        alt="Drawing of a person wearing headphones and moving to music."
+        alt=""
+        aria-hidden="true"
       />
-      <div class="main-content">
-        <h2>Order Summary</h2>
-        <p>
-          You can now listen to millions of songs, audiobooks, and podcasts on
-          any device anywhere you like!
-        </p>
-        <div class="annual-plan-box">
-          <div>
-            <img src="./images/icon-music.svg" alt="" />
+      <main>
+        <div class="main-content">
+          <h2>Order Summary</h2>
+          <p class="main-p">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+          <div class="plan-box">
+            <div>
+              <img
+                class="plan-icon"
+                src="./images/icon-music.svg"
+                alt=""
+                aria-hidden="true"
+              />
+            </div>
+            <div>
+              <p class="plan-subheading">Annual Plan</p>
+              <p class="plan-price">$59.99/year</p>
+            </div>
+            <button class="link">Change</button>
           </div>
-          <div>
-            <p>Annual Plan</p>
-            <p>$59.99/year</p>
-          </div>
-          <button class="link">Change</button>
+          <button class="button primary">Proceed to Payment</button>
+          <button class="button secondary">Cancel Order</button>
         </div>
-        <button class="button primary">Proceed to Payment</button>
-        <button class="button secondary">Cancel Order</button>
-      </div>
+      </main>
     </div>
 
     <!-- Attributions/Footer -->
