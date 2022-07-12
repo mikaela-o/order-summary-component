@@ -1,7 +1,5 @@
 # Frontend Mentor - Order summary card solution
 
-POOOOOOOO hahaha
-
 This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
@@ -10,18 +8,14 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
+For this challenge, the task was to create a order summary component that one might see when subscribing to a monthly service, like Spotify. In addition to implementing hover states on certain clickable elements, the website should also be responsive to different screen sizes.
 ### The challenge
 
 Users should be able to:
@@ -30,85 +24,38 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](./final-solution.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-## My process
-
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Although this is a beginner challenge, as someone who is self-taught and has only begun studying coding since the start of the summer, this took me a lot longer than I had expected. But overall, I learned a lot. Here's some of the things I learned:
+- using percentages to help with responsiveness
+- using css variables and media queries
+- using devTools in the browser
+- how to take time off from working to give my mind some space to relax and not get so overwhelmed and frustrated (lol)
+- css flexbox
+- how to properly use git & github
 
-To see how you can add code snippets, see below:
+Overall, I feel like this was a well-rounded project, in that I got to test a lot of my skills that I've learned this past month and a half. I know there are still a ton of issues regarding total responsiveness and accessibility, but I am still proud of myself for having come this far in such a short time, and all on my own too! :D
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
+I realized with this project that I can be really hard on myself when I can't figure something out so this project was also somewhat ~~introspective~~ because I got to learn more about by work habits and how to go about improving them.
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I want to continue working with flexbox and media queries as I found this the most tasking and frustrating part. I also want to get better at keeping my code DRY as many of you will probably see that my code is a rambling mess in a lot of places (much like my thoughts lol) so that is definitely something I want to work on.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+In researching for this project, I stumbled upon different css methodologies one can implement to make the process of writing css flow a little smoother and more intuitively. Those are more things I plan on looking into as a result of this project.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Website - my portfolio website :p (https://www.mikaelaortiz.myportfolio.com)
+- Frontend Mentor - @mikaela-o (https://www.frontendmentor.io/profile/mikaela-o)
