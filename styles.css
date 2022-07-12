@@ -103,9 +103,7 @@ body {
   /* margin-top: 7.083333333333333%;
   margin-left: 34.375; */
 }
-/* ~~~~~~~~~~~~~~~~ done (✧ω✧) ~~~~~~~~~~~~~~~~~~~
----------------------[code above this line is 'responsive'] ---------------------*/
-/* !!!!!!! i do still have to fix the image width on smaller screens tho !!!!!!! */
+
 .main-content {
   /* flex-shrink: 1; */
   max-width: 100%;
